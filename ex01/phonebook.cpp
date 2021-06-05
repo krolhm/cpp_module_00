@@ -6,7 +6,7 @@
 /*   By: rbourgea <rbourgea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/03 17:10:52 by rbourgea          #+#    #+#             */
-/*   Updated: 2021/06/04 16:34:38 by rbourgea         ###   ########.fr       */
+/*   Updated: 2021/06/05 20:33:11 by rbourgea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,25 +53,25 @@ void	phonebook_contact::listing(int i)
 void	phonebook_contact::add(void)
 {	
 	std::cout << "]> first name: ";
-	std::cin >> first_name;
+	std::getline(std::cin >> std::ws, first_name);
 	std::cout << "]> last name: ";
-	std::cin >> last_name;
+	std::getline(std::cin >> std::ws, last_name);
 	std::cout << "]> nickname: ";
-	std::cin >> nickname;
+	std::getline(std::cin >> std::ws, nickname);
 	std::cout << "]> login: ";
-	std::cin >> login;
+	std::getline(std::cin >> std::ws, login);
 	std::cout << "]> postal adress: ";
-	std::cin >> postal_adress;
+	std::getline(std::cin >> std::ws, postal_adress);
 	std::cout << "]> email adress: ";
-	std::cin >> email_adress;
+	std::getline(std::cin >> std::ws, email_adress);
 	std::cout << "]> phone number: ";
-	std::cin >> phone_number;
+	std::getline(std::cin >> std::ws, phone_number);
 	std::cout << "]> birthday date: ";
-	std::cin >> birthday_date;
+	std::getline(std::cin >> std::ws, birthday_date);
 	std::cout << "]> favorite meal: ";
-	std::cin >> favorite_meal;
+	std::getline(std::cin >> std::ws, favorite_meal);
 	std::cout << "]> underwear color: ";
-	std::cin >> underwear_color;
+	std::getline(std::cin >> std::ws, underwear_color);
 	std::cout << "]> darkest secret: ";
-	std::cin >> darkest_secret;
+	std::getline(std::cin >> std::ws, darkest_secret);
 }
