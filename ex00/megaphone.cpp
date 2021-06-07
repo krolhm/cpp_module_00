@@ -6,11 +6,12 @@
 /*   By: rbourgea <rbourgea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/03 10:57:14 by rbourgea          #+#    #+#             */
-/*   Updated: 2021/06/03 17:18:24 by rbourgea         ###   ########.fr       */
+/*   Updated: 2021/06/07 20:42:16 by rbourgea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
+#include <string>
 
 int	main (int argc, char **argv)
 {

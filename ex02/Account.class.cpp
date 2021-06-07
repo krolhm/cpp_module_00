@@ -6,12 +6,13 @@
 /*   By: rbourgea <rbourgea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/04 17:47:35 by rbourgea          #+#    #+#             */
-/*   Updated: 2021/06/04 18:50:45 by rbourgea         ###   ########.fr       */
+/*   Updated: 2021/06/07 20:42:35 by rbourgea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <iomanip>
+#include <string>
 #include "Account.class.hpp"
 
 int		Account::_nbAccounts = 0;
