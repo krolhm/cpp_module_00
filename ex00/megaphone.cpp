@@ -6,12 +6,13 @@
 /*   By: rbourgea <rbourgea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/03 10:57:14 by rbourgea          #+#    #+#             */
-/*   Updated: 2021/06/07 20:42:16 by rbourgea         ###   ########.fr       */
+/*   Updated: 2021/06/09 09:58:12 by rbourgea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <string>
+#include <string.h>
 
 int	main (int argc, char **argv)
 {
@@ -22,7 +23,7 @@ int	main (int argc, char **argv)
 	}
 	for (int j = 1; j < argc; j++)
 	{
-		for (int i = 0; i < (int)std::strlen(argv[j]); i++)
+		for (int i = 0; i < (int)strlen(argv[j]); i++)
 		{
 			argv[j][i] = std::toupper(argv[j][i]);
 		}
